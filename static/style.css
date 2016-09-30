@@ -30,3 +30,10 @@ h1{
 	display: inline-block;
 	width: 100%;
 }
+.dashboard_nav{
+	position: fixed;
+	height: 100vh;
+	width: 25%;
+	background-image: url('lore_stock2.jpg');
+
+}
