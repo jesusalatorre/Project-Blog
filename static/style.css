@@ -1,0 +1,29 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Lora', serif;
+}
+
+.blog-image{
+	background-image: url('../static/lore_stock3.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	width: 40%;
+	height: 100vh;
+}
+
+.login{
+	position: relative; 
+	left: 750px;
+	bottom: 600px;
+	width: 550px;
+	text-align: center;
+	border: 6px solid gray ;
+	padding: 50px;
+	border-radius: 15px;
+}
+h1{
+	font-weight: bolder;
+	padding-bottom: 20px;
+	padding-top: 0px;
+}
