@@ -4,26 +4,29 @@ body {
 	font-family: 'Lora', serif;
 }
 
-.blog-image{
-	background-image: url('../static/lore_stock3.jpg');
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	width: 40%;
+.landing_img{
 	height: 100vh;
+	width: 40%;
 }
 
 .login{
-	position: relative; 
-	left: 750px;
-	bottom: 600px;
-	width: 550px;
+	position: absolute; 
+	left: 55%;
+	bottom: 40%;
+	width: 30%;
 	text-align: center;
-	border: 6px solid gray ;
-	padding: 50px;
+	border: 6px solid gray;
+	padding-bottom: 40px;
 	border-radius: 15px;
 }
 h1{
 	font-weight: bolder;
 	padding-bottom: 20px;
 	padding-top: 0px;
+	color: gray;
+}
+
+.login_prompts{
+	display: inline-block;
+	width: 100%;
 }
