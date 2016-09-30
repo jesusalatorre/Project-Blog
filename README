@@ -1,6 +1,10 @@
+Project Start 9/29/2016
 
 The aim of this is to use Flask to inject some old files I have laying around with life.
 
 This one in particular was an idea for a blog, so I'll follow through with it and finish a blogging application, using the original concept.
+
+9/30/2016 I'm switching out the initial setup I had for one that uses Flask packages like WTForms. I got it up and running, though the login page breaks down when I try the submit button.
+I added a dashboard template which I will work on once I fix everything with the login site and work out a functional entrance to the app.
 
 Further documentation to be provided.
