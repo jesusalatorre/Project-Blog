@@ -3,12 +3,10 @@ body {
 	padding: 0;
 	font-family: 'Lora', serif;
 }
-
 .landing_img{
 	height: 100vh;
 	width: 40%;
 }
-
 .login{
 	position: absolute; 
 	left: 55%;
@@ -25,7 +23,6 @@ h1{
 	padding-top: 0px;
 	color: gray;
 }
-
 .login_prompts{
 	display: inline-block;
 	width: 100%;
@@ -36,4 +33,18 @@ h1{
 	width: 25%;
 	background-image: url('lore_stock2.jpg');
 
+}
+.error{
+	background-image: url('error.jpg');
+	background-size: 100% 100%;
+	height: 100vh;
+	width: 100vw;
+}
+.error_message{
+	position: absolute;
+	right: 40%;
+	top: 30%;
+	width: 30%;
+	height: 30%;
+	border: 6px solid black;
 }

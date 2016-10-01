@@ -13,7 +13,7 @@ class loginform(Form):
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'I need a better example'
 
-@app.route('/')
+@app.route('/', methods=['GET', 'POST'])
 def index():
 	return render_template('login.html', form=loginform())
 
@@ -24,6 +24,10 @@ def dash():
 @app.route('/register')
 def register():
 	return render_template('register.html')
+
+@app.errorhandler(404)
+def page_not_found(e):
+    return render_template('404.html'), 404
 
 
 
